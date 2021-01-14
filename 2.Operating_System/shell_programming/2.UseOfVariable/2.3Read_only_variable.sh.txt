@@ -1,0 +1,5 @@
+#!/bin/bash 
+
+var=434
+readonly var # variable is marked read-only, its value cannot be changed.
+echo $var

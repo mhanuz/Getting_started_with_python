@@ -1,0 +1,10 @@
+#!/bin/bash 
+
+
+#the script should always be run with bash
+#It is the path where the shell executable file is located.
+
+
+echo "Please enter your name:?" #print a string
+read NAME # read use for take input , variables will have their names in UPPERCASE
+echo "Hello, $NAME" # print the output where $ called the command prompt

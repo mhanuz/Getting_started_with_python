@@ -1,0 +1,5 @@
+#!/bin/bash 
+
+var=434
+unset var # Unsetting or deleting a variable directs the shell to remove the variable from the list of variables
+echo $var

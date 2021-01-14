@@ -1,0 +1,10 @@
+#!/bin/sh
+name[0]="abul"
+name[1]="babul"
+name[2]="cabul"
+name[3]="dabul"
+name[4]="habul"
+echo "First name: ${name[0]}"
+echo "Second name: ${name[1]}"
+echo "All argument in a double qoute: ${name[*]}"
+echo "All argument with individually double qoute: ${name[@]}"

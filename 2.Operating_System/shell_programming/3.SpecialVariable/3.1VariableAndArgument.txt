@@ -1,0 +1,6 @@
+$0>>> file name of current script
+$n>>> positve decimal position of an argument
+$#>>> The number of arguments supplied to a script
+$*>>> All the argument are double quoted
+$@>>> all the arguments are individually double quoted
+$?>>> The exit status of the last command executed

@@ -1,0 +1,5 @@
+#!/bin/bash 
+
+NAME="ABBAS"
+
+echo $NAME # To access the value stored in a variable used $ sign before variable

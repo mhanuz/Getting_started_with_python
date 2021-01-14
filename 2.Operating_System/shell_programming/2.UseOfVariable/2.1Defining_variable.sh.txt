@@ -1,0 +1,8 @@
+#!/bin/bash 
+
+NAME="ABUL KASHEM" #Variables of this type are called scalar variables that can hold only one value at a time. 
+
+#Shell enables you to store any value you want in a variable
+VAR=1000
+VAR3=45.5
+

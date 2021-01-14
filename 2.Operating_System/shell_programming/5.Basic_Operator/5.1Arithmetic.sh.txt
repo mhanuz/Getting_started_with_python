@@ -1,0 +1,26 @@
+#!/bin/sh
+
+#variable
+x=10
+y=5
+
+add=`expr $y+$x`
+echo "Addition is : $add"
+sub=`expr $x-$y`
+echo "Substraction is : $sub"
+mul=`expr $x*$y`
+echo "Multiplication is : $mul"
+div=`expr $x/$y`
+echo "Division is : $div"
+mod=`expr $x%$y`
+echo "Modulus is : $mod"
+
+if[$==$b]
+then 
+    echo "a is equal than b"
+fi
+
+if[$a!=$b]
+then
+    echo"a is not equal to b"
+fi
