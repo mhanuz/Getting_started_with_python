@@ -1,0 +1,30 @@
+A = pi*1000*ones(1,5);%fromating string
+sprintf(' %f \n %.2f \n %+.2f \n %12.2f \n %012.2f \n', A)
+
+%join string
+%cell array of strings
+str_array = {'red','blue','green', 'yellow', 'orange'};
+
+% Join strings in cell array into single string
+str1 = strjoin(str_array, "-")
+str2 = strjoin(str_array, ",")
+
+%finding and replaceing strng
+students = {'Zara Ali', 'Neha Bhatnagar', ...
+            'Monica Malik', 'Madhu Gautam', ...
+            'Madhu Sharma', 'Bhawna Sharma',...
+            'Nuha Ali', 'Reva Dutta', ...
+            'Sunaina Ali', 'Sofia Kabir'};
+ 
+% The strrep function searches and replaces sub-string.
+new_student = strrep(students(8), 'Reva', 'Poulomi')
+% Display first names
+first_names = strtok(students)
+
+%compairing string 
+str1 = 'This is test'
+str2 = 'This is text'
+if (strcmp(str1, str2))
+   sprintf('%s and %s are equal', str1, str2)
+else
+   sprintf('%s and %s are not equa

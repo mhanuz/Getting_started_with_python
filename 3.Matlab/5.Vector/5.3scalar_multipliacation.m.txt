@@ -1,0 +1,3 @@
+% When you multiply a vector by a number, this is called the scalar multiplication
+v = [ 12 34 10 8];
+m = 5 * v

@@ -1,0 +1,5 @@
+zeros(5) %The zeros() function creates an array of all zeros
+ones(3,3) %The ones() function creates an array of all ones
+eye(3) %The eye() function creates an identity matrix
+rand(2,3) %The rand() function creates an array of uniformly distributed random numbers on (0,1)
+magic(4) %A magic square is a square that produces the same sum, when its elements are added row-wise, column-wise or diagonally.

@@ -1,0 +1,13 @@
+doc_profile = ['abcdef'; ...
+               'ghijklmn'; ...
+               'opqrstuvwxyz']
+doc_profile = char('abcdef', 'ghijklmn', ...
+                  'opqrstuvwxyz')
+
+
+
+name =     'Kashem ali';
+position = 'Sr. software engineer'; 
+worksAt =  'Mofij consultency';
+profile = [name ', ' position ', ' worksAt]
+profile = strcat(name, ', ', position, ', ', worksAt)

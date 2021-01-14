@@ -1,0 +1,7 @@
+a = [ 1 2 3 4 5; 2 3 4 5 6; 3 4 5 6 7; 4 5 6 7 8]
+a(3,3) % refferencing element of a matrix
+a(:,4) % column no 4 print with all row elements
+a(:,2:4) % column 2 to 4 print with all row element 
+a(2:4,3) % row 2 to 4 and column 3 's  entities 
+a(4,:) =[]  % deleting row no 4
+a(:,5) =[]  % deleting column no 5

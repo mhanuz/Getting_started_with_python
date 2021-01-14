@@ -1,0 +1,5 @@
+my_string = 'Tutorial''s Point';
+str_ascii = uint8(my_string)        % 8-bit ascii values
+str_back_to_char= char(str_ascii)  
+str_16bit = uint16(my_string)       % 16-bit ascii values
+str_back_to_char = char(str_16bit) 

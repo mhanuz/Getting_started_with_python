@@ -1,0 +1,9 @@
+%he transpose operation changes a column vector into a row vector and vice versa
+a=[1 2 3 4];
+at=a'; %. The transpose operation is represented by a single quote (').
+
+b=[1;2;3;4];
+bt=b';
+
+disp(at)
+disp(bt)

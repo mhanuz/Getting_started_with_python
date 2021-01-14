@@ -1,0 +1,13 @@
+%sorting array
+v = [ 23 45 12 9 5 0 19 17]  % horizontal vector
+sort(v)                      % sorting v
+m = [2 6 4; 5 3 9; 2 0 1]    % two dimensional array
+sort(m, 1)                   % sorting m along the column
+sort(m, 2)                   % sorting m along the row
+
+%cell array
+c = cell(2, 5);
+c = {'Red', 'Blue', 'Green', 'Yellow', 'White'; 1 2 3 4 5}
+
+c = {'Red', 'Blue', 'Green', 'Yellow', 'White'; 1 2 3 4 5};
+c(1:2,1:2)%Accessing Data in Cell Arrays

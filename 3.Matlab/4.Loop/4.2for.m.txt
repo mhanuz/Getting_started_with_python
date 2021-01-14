@@ -1,0 +1,11 @@
+for a = 10:20  % start 10 and finish 20
+   fprintf('value of a: %d\n', a);
+end
+
+for a = 1.0: -0.1: 0.0 % start to 1 decrement -.1 and finish 0 
+   disp(a)
+end
+
+for a = [24,18,17,23,28] % print array values according to index increment 
+   disp(a)
+end

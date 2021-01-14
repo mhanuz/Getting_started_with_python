@@ -1,0 +1,11 @@
+% displaying the smallest and largest single-precision 
+% floating point number
+str = 'The range for single is:\n\t%g to %g and\n\t %g to  %g';
+sprintf(str, -realmax('single'), -realmin('single'), ...
+   realmin('single'), realmax('single'))
+
+% displaying the smallest and largest double-precision 
+% floating point number
+str = 'The range for double is:\n\t%g to %g and\n\t %g to  %g';
+sprintf(str, -realmax('double'), -realmin('double'), ...
+   realmin('double'), realmax('double'))

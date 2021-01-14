@@ -1,0 +1,12 @@
+x=[1 2 3 4; 4 5 6 7; 7 8 9 2]
+length(x) %length of a vector
+ndims(x)  %number of dimension 
+numel(x)  %number of array element
+size(x)   % m x n dimension 
+iscolumn(x)% is input a column vector result=0/1
+isempty(x) % array is empty or not 
+ismatrix(x) % is input a matrix
+isrow(x)    %is input a row vector
+isscalar(x) %is input a scalar
+isvector(x) %is input a vector
+blkdiag(x)  %Constructs block diagonal matrix from input arguments
